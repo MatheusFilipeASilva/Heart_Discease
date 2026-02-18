@@ -10,3 +10,9 @@ This far, we have already done a analysis of outliars, correlation, merging cate
 
 <br>
 A new organizaition feature has been add. Every model shall have their pretended use at the end, so. 2nd_ML_stack1 means that will be the first CBC (catboost_classifier) model we will use to stack a LR model, by example.
+
+<br>
+We executed a grid search. The best run had the following parameters:
+
+Best trial: 25. Best value: 0.955495:  87%|████████▋ | 26/30 [8:32:36<1:32:44, 1391.04s/it]
+[I 2026-02-17 19:19:58,582] Trial 25 finished with value: 0.9554952344394854 and parameters: {'iterations': 1233, 'depth': 5, 'learning_rate': 0.05563228358640898, 'l2_leaf_reg': 1.2388924496891942, 'border_count': 157}. Best is trial 25 with value: 0.9554952344394854.
