@@ -28,5 +28,10 @@ We've runned GridSearch with Optuna for our MLPClassifier model. We got the foll
 
 #### [I 2026-02-18 15:01:16,452] Trial 22 finished with value: 0.9533291427951834 and parameters: {'hidden_layer_sizes': (128,), 'alpha': 5.894589851301599e-05, 'learning_rate_init': 0.0007594934857959463, 'activation': 'relu'}. Best is trial 22 with value: 0.9533291427951834.
 <br>
+We trained the MLPCtunned model, and used KFold to generate oof_preds. The oof_preds are stored into mlp_oof.npy.
 
-Foi treinado o modelo MLPCtunned, e usado o kfold pra gerar as oof_preds. As oof_preds do modelo mlp foram salvas em mlp_oof.npy.
+<br>
+
+#### We trained the LogisticRegression tunned model, at Logistic_Regression_tunned, we've obtained the following score and best params:
+Best score: 0.9526825664593407
+Best params: {'C': 0.061907906899253747, 'penalty': 'l1', 'solver': 'liblinear'}
